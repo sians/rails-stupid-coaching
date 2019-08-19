@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="block your-question">
+    <p><%= @ask %></p>
+    <p><span class="italic">- You</span></p>
+  </div>
+
+  <div class="block answer">
+    <p><%= @answer %></p>
+    <p><span class="italic">- Your Coach</span></p>
+  </div>
+
+  <%= link_to 'go back!', ask_path %>
+</div>
